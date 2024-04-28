@@ -7,7 +7,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D7","PSM712-LF","SOT-23",-116.271000,70.101000,90.000000,bottom
 "Q11","AO3400A","SOT-23",-134.469000,69.064000,180.000000,bottom
 "Q12","AO3400A","SOT-23",-121.157000,69.807000,180.000000,bottom
-"R5","0","R0603",-17.613000,41.682000,0.000000,bottom
+"R5","0","R0603",-18.494000,38.104000,0.000000,bottom
 "R12","0","R_2512_6332Metric",-113.294000,48.284000,120.000000,bottom
 "R13","0","R_2512_6332Metric",-96.097000,35.652000,120.000000,bottom
 "R14","0","R_2512_6332Metric",-108.098000,39.440000,120.000000,bottom
@@ -24,10 +24,10 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J4","1-776087-1","17760871",66.007000,13.720000,0.000000,top
 "J8","USB_B_Mini","USB-MINI-B-VERTICAL",120.352000,6.502000,0.000000,top
 "JP1","Jumper_2_Bridged","PinHeader_1x02_P2.54mm_Vertical",140.970000,13.451000,180.000000,top
-"JP2","Jumper_2_Bridged","PinHeader_1x02_P2.54mm_Vertical",16.186000,49.905000,0.000000,top
+"JP2","Jumper_2_Bridged","PinHeader_1x02_P2.54mm_Vertical",22.311000,46.987000,0.000000,top
 "JP3","Jumper_2_Bridged","PinHeader_1x02_P2.54mm_Vertical",139.494000,7.635000,0.000000,top
 "M1","Module-power_12and5V-0.2","power_12and5V",38.339001,30.157001,180.000000,top
-"M3","Module-vr-discrete-0.4","vr-discrete",4.218000,57.657000,-90.000000,top
+"M3","Module-vr-discrete-0.4","vr-discrete",8.967000,57.286000,-90.000000,top
 "M4","Module-vr-max9924-0.1","vr-max9924",70.583000,60.156000,0.000000,top
 "M5","Module-wbo-0.5","wbo",139.080000,24.612000,180.000000,top
 "M6","Module:mega-mcu100/0.2","mega-mcu100",80.387005,54.687005,180.000000,top
