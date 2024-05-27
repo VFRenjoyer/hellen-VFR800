@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/uaeficopiedtovfr.kicad_sch</source>
-    <date>2024-05-27T17:13:03+0000</date>
+    <date>2024-05-27T17:44:14+0000</date>
     <tool>Eeschema 8.0.2-8.0.2-0~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -688,6 +688,38 @@
       <property name="Sheetfile" value="uaeficopiedtovfr.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bbea4ccb-3354-44a6-b74b-33ccb532e5bf</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>56k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C4216</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C4216"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaeficopiedtovfr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8820ef06-179d-419c-b9e1-6fb49c2f1bf1</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>12k</value>
+      <footprint>hellen-one-common:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23212</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C23212"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaeficopiedtovfr.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7425bc51-4e97-4240-9a28-e399c024d1cd</tstamps>
     </comp>
     <comp ref="text1">
       <value>~</value>
@@ -2086,6 +2118,7 @@
   <nets>
     <net code="1" name="+3.3V">
       <node ref="M6" pin="N21" pinfunction="V33" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
     </net>
     <net code="2" name="+3.3VA">
       <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
@@ -2144,6 +2177,8 @@
       <node ref="M3" pin="W1" pinfunction="VR-" pintype="passive"/>
       <node ref="M4" pin="W1" pinfunction="VR-" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
       <node ref="U1" pin="B12" pinfunction="B12" pintype="input"/>
     </net>
     <net code="12" name="/CAN+">
@@ -2545,6 +2580,7 @@
       <node ref="Q7" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="Q9" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
