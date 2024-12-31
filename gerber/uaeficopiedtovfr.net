@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/uaeficopiedtovfr.kicad_sch</source>
-    <date>2024-05-27T17:44:14+0000</date>
-    <tool>Eeschema 8.0.2-8.0.2-0~ubuntu22.04.1</tool>
+    <date>2024-12-31T19:32:09+0000</date>
+    <tool>Eeschema 8.0.7-8.0.7-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
