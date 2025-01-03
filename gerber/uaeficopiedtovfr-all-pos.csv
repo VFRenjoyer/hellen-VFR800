@@ -7,7 +7,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D7","PSM712-LF","SOT-23",-116.271000,70.101000,90.000000,bottom
 "Q11","AO3400A","SOT-23",-134.469000,69.064000,180.000000,bottom
 "Q12","AO3400A","SOT-23",-121.157000,69.807000,180.000000,bottom
-"R5","0","R0603",-18.494000,38.104000,0.000000,bottom
+"R5","0","R0603",-18.400820,39.407780,0.000000,bottom
 "R12","0","R_2512_6332Metric",-113.294000,48.284000,120.000000,bottom
 "R13","0","R_2512_6332Metric",-96.097000,35.652000,120.000000,bottom
 "R14","0","R_2512_6332Metric",-108.098000,39.440000,120.000000,bottom
@@ -30,7 +30,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "JP3","Jumper_2_Bridged","PinHeader_1x02_P2.54mm_Vertical",139.494000,7.635000,0.000000,top
 "M1","Module-power_12and5V-0.2","power_12and5V",38.339001,30.157001,180.000000,top
 "M3","Module-vr-discrete-0.4","vr-discrete",8.967000,57.286000,-90.000000,top
-"M4","Module-vr-max9924-0.1","vr-max9924",70.583000,60.156000,0.000000,top
+"M4","Module-vr-max9924-0.1","vr-max9924",21.914000,31.644500,0.000000,top
 "M5","Module-wbo-0.5","wbo",139.080000,24.612000,180.000000,top
 "M6","Module:mega-mcu100/0.2","mega-mcu100",80.387005,54.687005,180.000000,top
 "M7","Module-wbo-0.5","wbo",1.319000,38.270000,-90.000000,top
@@ -61,8 +61,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R30","4.7k","R0603",139.028000,33.241072,180.000000,top
 "R31","4.7k","R0603",144.627000,48.626928,0.000000,top
 "R32","4.7k","R0603",148.710000,49.553000,180.000000,top
+"REF**","R_0402_1005Metric","R_0402_1005Metric",6.767620,57.665300,0.000000,top
 "U1","~","VFRboardempty",-0.075000,75.181000,0.000000,top
 "U2","JDY-33","JDY-33",150.259000,15.130000,0.000000,top
-"VR1","PinHeader_1x01_P2.54mm_Vertical","PinHeader_1x01_P2.54mm_Vertical",19.310000,34.994000,0.000000,top
-"VR2","PinHeader_1x01_P2.54mm_Vertical","PinHeader_1x01_P2.54mm_Vertical",86.234000,28.626000,0.000000,top
-"text1","~","trollfaceVFR",28.767815,33.807539,5.000000,top
+"VR1","PinHeader_1x01_P2.54mm_Vertical","PinHeader_1x01_P2.54mm_Vertical",19.338000,32.661000,0.000000,top
+"text1","~","trollfaceVFR",77.427815,58.211540,5.000000,top
