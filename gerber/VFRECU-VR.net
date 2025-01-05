@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/VFRECU-VR.kicad_sch</source>
-    <date>2025-01-05T23:41:57+0000</date>
+    <date>2025-01-05T23:47:39+0000</date>
     <tool>Eeschema 8.0.7-8.0.7-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1134,7 +1134,7 @@
       <sheetpath names="/LM1815-Cam/" tstamps="/6c826ae6-85e5-4f50-9882-510a117c9583/"/>
       <tstamps>886734a6-2a31-429b-b701-5a893cd7db1f</tstamps>
     </comp>
-    <comp ref="R1A1">
+    <comp ref="R1A">
       <value>4.7k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <description>Resistor</description>
@@ -2907,7 +2907,7 @@
     </net>
     <net code="64" name="/LM1815-Cam/Signal+">
       <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="R1A1" pin="1" pintype="passive"/>
+      <node ref="R1A" pin="1" pintype="passive"/>
       <node ref="R42" pin="2" pintype="passive"/>
     </net>
     <net code="65" name="/LM1815-Crank/Signal+">
@@ -3196,7 +3196,7 @@
     <net code="115" name="Net-(IC2A1-VIN)">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="IC2A1" pin="3" pinfunction="VIN" pintype="passive"/>
-      <node ref="R1A1" pin="2" pintype="passive"/>
+      <node ref="R1A" pin="2" pintype="passive"/>
     </net>
     <net code="116" name="Net-(J3-Pin_1)">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
