@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.7-8.0.7-0~ubuntu24.04.1*
-G04 #@! TF.CreationDate,2025-01-05T22:49:14+00:00*
+G04 #@! TF.CreationDate,2025-01-05T23:33:16+00:00*
 G04 #@! TF.ProjectId,VFRECU-VR,56465245-4355-42d5-9652-2e6b69636164,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.7-8.0.7-0~ubuntu24.04.1) date 2025-01-05 22:49:14*
+G04 Created by KiCad (PCBNEW 8.0.7-8.0.7-0~ubuntu24.04.1) date 2025-01-05 23:33:16*
 %MOMM*%
 %LPD*%
 G01*
@@ -829,6 +829,10 @@ X19917020Y48675580I-140000J0D01*
 G01*
 G37*
 G04 #@! TD*
+D14*
+G04 #@! TO.C,H2*
+X5000000Y5000000D03*
+G04 #@! TD*
 G04 #@! TO.C,R30*
 G36*
 G01*
@@ -1280,10 +1284,6 @@ G02*
 X28253740Y35003460I0J-94050D01*
 G01*
 G37*
-G04 #@! TD*
-D14*
-G04 #@! TO.C,H4*
-X5000000Y5000000D03*
 G04 #@! TD*
 G04 #@! TO.C,Q3*
 G36*
