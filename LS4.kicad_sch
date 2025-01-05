@@ -1573,12 +1573,12 @@
 					(reference "#PWR018")
 					(unit 1)
 				)
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-					(reference "#PWR02")
-					(unit 1)
-				)
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
 					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "#PWR02")
 					(unit 1)
 				)
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
@@ -2073,12 +2073,12 @@
 					(reference "#PWR018")
 					(unit 1)
 				)
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-					(reference "#PWR02")
-					(unit 1)
-				)
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
 					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "#PWR02")
 					(unit 1)
 				)
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
@@ -2555,12 +2555,12 @@
 					(reference "#PWR018")
 					(unit 1)
 				)
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-					(reference "#PWR02")
-					(unit 1)
-				)
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
 					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "#PWR02")
 					(unit 1)
 				)
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
@@ -2763,12 +2763,12 @@
 					(reference "#PWR018")
 					(unit 1)
 				)
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-					(reference "#PWR02")
-					(unit 1)
-				)
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
 					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "#PWR02")
 					(unit 1)
 				)
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
