@@ -2789,7 +2789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf1824ac-e585-477b-824d-4b35d63f5707")
-		(property "Reference" "R1A1"
+		(property "Reference" "R1A"
 			(at 39.37 53.34 90)
 			(effects
 				(font
@@ -2841,7 +2841,7 @@
 		(instances
 			(project "VFRECU-VR"
 				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea/6c826ae6-85e5-4f50-9882-510a117c9583"
-					(reference "R1A1")
+					(reference "R1A")
 					(unit 1)
 				)
 			)
