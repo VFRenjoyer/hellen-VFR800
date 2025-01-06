@@ -25,7 +25,7 @@
 "MountingHole_Pad","H1","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad",""
 "MountingHole_Pad","H2","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad",""
 "LM1815MX_NOPB","IC2","SOIC127P600X175-14N",""
-"LM1815MX_NOPB","IC2A1","SOIC127P600X175-14N",""
+"LM1815MX_NOPB","IC2A","SOIC127P600X175-14N",""
 "Conn_01x06","J3","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","C37208"
 "1-776087-1","J4","17760871",""
 "Conn_01x06","J6","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","C37208"
