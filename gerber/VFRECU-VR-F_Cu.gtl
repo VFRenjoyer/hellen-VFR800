@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.7-8.0.7-0~ubuntu24.04.1*
-G04 #@! TF.CreationDate,2025-01-06T00:34:32+00:00*
+G04 #@! TF.CreationDate,2025-01-06T00:47:06+00:00*
 G04 #@! TF.ProjectId,VFRECU-VR,56465245-4355-42d5-9652-2e6b69636164,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L1,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.7-8.0.7-0~ubuntu24.04.1) date 2025-01-06 00:34:32*
+G04 Created by KiCad (PCBNEW 8.0.7-8.0.7-0~ubuntu24.04.1) date 2025-01-06 00:47:06*
 %MOMM*%
 %LPD*%
 G01*
@@ -1035,7 +1035,7 @@ G04 #@! TO.P,H1,1,1*
 G04 #@! TO.N,GND*
 X155885000Y48938000D03*
 G04 #@! TD*
-G04 #@! TO.P,MV+,1*
+G04 #@! TO.P,R27,1*
 G04 #@! TO.N,+5VA*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
@@ -1063,7 +1063,7 @@ X35997520Y38305200I-135000J0D01*
 G01*
 G37*
 G04 #@! TD.AperFunction*
-G04 #@! TO.P,MV+,2*
+G04 #@! TO.P,R27,2*
 G04 #@! TO.N,Net-(IC2-MODE)*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
@@ -2764,7 +2764,7 @@ G01*
 G37*
 G04 #@! TD.AperFunction*
 G04 #@! TD*
-G04 #@! TO.P,MV+,1*
+G04 #@! TO.P,R37,1*
 G04 #@! TO.N,+5VA*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
@@ -2792,7 +2792,7 @@ X16536680Y41576520I0J-135000D01*
 G01*
 G37*
 G04 #@! TD.AperFunction*
-G04 #@! TO.P,MV+,2*
+G04 #@! TO.P,R37,2*
 G04 #@! TO.N,Net-(IC2A1-MODE)*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
@@ -4900,7 +4900,7 @@ G04 #@! TO.P,JP1,2,B*
 G04 #@! TO.N,+5VA*
 X140970000Y15991000D03*
 G04 #@! TD*
-G04 #@! TO.P,MG,1*
+G04 #@! TO.P,R33,1*
 G04 #@! TO.N,GND*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
@@ -4928,7 +4928,7 @@ X34826580Y38345840I-135000J0D01*
 G01*
 G37*
 G04 #@! TD.AperFunction*
-G04 #@! TO.P,MG,2*
+G04 #@! TO.P,R33,2*
 G04 #@! TO.N,Net-(IC2-MODE)*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
@@ -5653,7 +5653,7 @@ X156609000Y19955000D03*
 G04 #@! TO.P,U2,26*
 X156609000Y21455000D03*
 G04 #@! TD*
-G04 #@! TO.P,MG,1*
+G04 #@! TO.P,R36,1*
 G04 #@! TO.N,GND*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
@@ -5681,7 +5681,7 @@ X13968300Y42573040I0J135000D01*
 G01*
 G37*
 G04 #@! TD.AperFunction*
-G04 #@! TO.P,MG,2*
+G04 #@! TO.P,R36,2*
 G04 #@! TO.N,Net-(IC2A1-MODE)*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
 G36*
