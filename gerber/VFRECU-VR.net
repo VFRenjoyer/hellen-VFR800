@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/VFRECU-VR.kicad_sch</source>
-    <date>2025-01-06T00:58:17+0000</date>
+    <date>2025-01-06T01:21:12+0000</date>
     <tool>Eeschema 8.0.7-8.0.7-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1488,13 +1488,13 @@
       <value>470k</value>
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
-        <field name="LCSC">C23162</field>
+        <field name="LCSC"/>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
-      <property name="LCSC" value="C23162"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value="Low Side"/>
       <property name="Sheetfile" value="LS_weak.kicad_sch"/>
       <sheetpath names="/Low Side/" tstamps="/2682b025-f92e-4736-98ae-c386990abfb8/"/>
