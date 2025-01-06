@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/VFRECU-VR.kicad_sch</source>
-    <date>2025-01-06T00:27:49+0000</date>
+    <date>2025-01-06T00:34:30+0000</date>
     <tool>Eeschema 8.0.7-8.0.7-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1074,7 +1074,7 @@
       <sheetpath names="/LM1815-Cam/" tstamps="/6c826ae6-85e5-4f50-9882-510a117c9583/"/>
       <tstamps>8ba5c08a-31dc-4204-b96e-92848afd4441</tstamps>
     </comp>
-    <comp ref="IC2A1">
+    <comp ref="IC2A">
       <value>LM1815MX_NOPB</value>
       <footprint>SOIC127P600X175-14N</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/lm1815.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&amp;ts=1593498318349</datasheet>
@@ -2614,7 +2614,7 @@
       <node ref="C13A" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="IC2" pin="8" pinfunction="VCC" pintype="passive"/>
-      <node ref="IC2A1" pin="8" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC2A" pin="8" pinfunction="VCC" pintype="passive"/>
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="M2" pin="E1" pinfunction="V5A" pintype="passive"/>
@@ -2972,7 +2972,7 @@
       <node ref="M6" pin="E5" pinfunction="IN_VIGN_(PA5)" pintype="passive"/>
     </net>
     <net code="91" name="/VR1">
-      <node ref="IC2A1" pin="12" pinfunction="REFERENCE_PULSE_OUT" pintype="passive"/>
+      <node ref="IC2A" pin="12" pinfunction="REFERENCE_PULSE_OUT" pintype="passive"/>
       <node ref="M6" pin="N18" pinfunction="UART8_RX_(PE0)" pintype="passive"/>
       <node ref="R40" pin="2" pintype="passive"/>
     </net>
@@ -3056,13 +3056,13 @@
       <node ref="IC2" pin="4" pinfunction="NC_2" pintype="passive"/>
       <node ref="IC2" pin="6" pinfunction="NC_3" pintype="passive"/>
       <node ref="IC2" pin="9" pinfunction="TIMING_PULSE_INPUT" pintype="passive"/>
-      <node ref="IC2A1" pin="1" pinfunction="NC_1" pintype="passive"/>
-      <node ref="IC2A1" pin="11" pinfunction="INPUT_SELECT" pintype="passive"/>
-      <node ref="IC2A1" pin="13" pinfunction="NC_4" pintype="passive"/>
-      <node ref="IC2A1" pin="2" pinfunction="GND" pintype="passive"/>
-      <node ref="IC2A1" pin="4" pinfunction="NC_2" pintype="passive"/>
-      <node ref="IC2A1" pin="6" pinfunction="NC_3" pintype="passive"/>
-      <node ref="IC2A1" pin="9" pinfunction="TIMING_PULSE_INPUT" pintype="passive"/>
+      <node ref="IC2A" pin="1" pinfunction="NC_1" pintype="passive"/>
+      <node ref="IC2A" pin="11" pinfunction="INPUT_SELECT" pintype="passive"/>
+      <node ref="IC2A" pin="13" pinfunction="NC_4" pintype="passive"/>
+      <node ref="IC2A" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC2A" pin="4" pinfunction="NC_2" pintype="passive"/>
+      <node ref="IC2A" pin="6" pinfunction="NC_3" pintype="passive"/>
+      <node ref="IC2A" pin="9" pinfunction="TIMING_PULSE_INPUT" pintype="passive"/>
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
@@ -3142,24 +3142,24 @@
       <node ref="IC2" pin="3" pinfunction="VIN" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="112" name="Net-(IC2A1-MODE)">
-      <node ref="IC2A1" pin="5" pinfunction="MODE" pintype="passive"/>
+    <net code="112" name="Net-(IC2A-MODE)">
+      <node ref="IC2A" pin="5" pinfunction="MODE" pintype="passive"/>
       <node ref="R36" pin="2" pintype="passive"/>
       <node ref="R37" pin="2" pintype="passive"/>
     </net>
-    <net code="113" name="Net-(IC2A1-PEAK_DETECTOR_CAPACITOR)">
+    <net code="113" name="Net-(IC2A-PEAK_DETECTOR_CAPACITOR)">
       <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="IC2A1" pin="7" pinfunction="PEAK_DETECTOR_CAPACITOR" pintype="passive"/>
+      <node ref="IC2A" pin="7" pinfunction="PEAK_DETECTOR_CAPACITOR" pintype="passive"/>
       <node ref="R38" pin="1" pintype="passive"/>
     </net>
-    <net code="114" name="Net-(IC2A1-RC_TIMING)">
+    <net code="114" name="Net-(IC2A-RC_TIMING)">
       <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="IC2A1" pin="14" pinfunction="RC_TIMING" pintype="passive"/>
+      <node ref="IC2A" pin="14" pinfunction="RC_TIMING" pintype="passive"/>
       <node ref="R39" pin="2" pintype="passive"/>
     </net>
-    <net code="115" name="Net-(IC2A1-VIN)">
+    <net code="115" name="Net-(IC2A-VIN)">
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="IC2A1" pin="3" pinfunction="VIN" pintype="passive"/>
+      <node ref="IC2A" pin="3" pinfunction="VIN" pintype="passive"/>
       <node ref="R1A" pin="2" pintype="passive"/>
     </net>
     <net code="116" name="Net-(J3-Pin_1)">
@@ -3270,8 +3270,8 @@
     <net code="142" name="unconnected-(IC2-GATED_OUTPUT-Pad10)">
       <node ref="IC2" pin="10" pinfunction="GATED_OUTPUT" pintype="passive"/>
     </net>
-    <net code="143" name="unconnected-(IC2A1-GATED_OUTPUT-Pad10)">
-      <node ref="IC2A1" pin="10" pinfunction="GATED_OUTPUT" pintype="passive"/>
+    <net code="143" name="unconnected-(IC2A-GATED_OUTPUT-Pad10)">
+      <node ref="IC2A" pin="10" pinfunction="GATED_OUTPUT" pintype="passive"/>
     </net>
     <net code="144" name="unconnected-(J3-Pin_6-Pad6)">
       <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
