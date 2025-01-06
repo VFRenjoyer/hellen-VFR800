@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/VFRECU-VR.kicad_sch</source>
-    <date>2025-01-05T23:47:39+0000</date>
+    <date>2025-01-06T00:10:35+0000</date>
     <tool>Eeschema 8.0.7-8.0.7-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1072,7 +1072,7 @@
       <sheetpath names="/LM1815-Cam/" tstamps="/6c826ae6-85e5-4f50-9882-510a117c9583/"/>
       <tstamps>ced822c1-5b47-4437-b69b-316207032b32</tstamps>
     </comp>
-    <comp ref="C12A1">
+    <comp ref="C12A">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <description>Capacitor</description>
@@ -1089,7 +1089,7 @@
       <sheetpath names="/LM1815-Cam/" tstamps="/6c826ae6-85e5-4f50-9882-510a117c9583/"/>
       <tstamps>6d4a9eb5-56af-4223-bba1-892b0b198363</tstamps>
     </comp>
-    <comp ref="C13A1">
+    <comp ref="C13A">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Capacitor</description>
@@ -2642,9 +2642,9 @@
       <node ref="M6" pin="N22" pinfunction="VCC" pintype="passive"/>
     </net>
     <net code="4" name="+5VA">
-      <node ref="C12A1" pin="2" pintype="passive"/>
+      <node ref="C12A" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
-      <node ref="C13A1" pin="2" pintype="passive"/>
+      <node ref="C13A" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="IC2" pin="8" pinfunction="VCC" pintype="passive"/>
       <node ref="IC2A1" pin="8" pinfunction="VCC" pintype="passive"/>
@@ -3068,9 +3068,9 @@
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C12A1" pin="1" pintype="passive"/>
+      <node ref="C12A" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
-      <node ref="C13A1" pin="1" pintype="passive"/>
+      <node ref="C13A" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
