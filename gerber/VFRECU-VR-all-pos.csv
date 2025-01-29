@@ -44,7 +44,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "JP3","Jumper_2_Bridged","PinHeader_1x02_P2.54mm_Vertical",139.494000,7.635000,0.000000,top
 "M1","Module-power_12and5V-0.2","power_12and5V",38.339001,30.157001,180.000000,top
 "M5","Module-wbo-0.5","wbo",139.080000,24.612000,180.000000,top
-"M6","Module:mega-mcu100/0.2","mega-mcu100",80.387005,54.687005,180.000000,top
+"M6","Module:mega-mcu100/0.2","mega-mcu100",80.367010,55.272990,180.000000,top
 "M7","Module-wbo-0.5","wbo",1.319000,38.270000,-90.000000,top
 "Q1","ISL9V3040D3S","TO-252-2",113.484538,47.952768,120.000000,top
 "Q2","ISL9V3040D3S","TO-252-2",96.773000,34.995461,120.000000,top
@@ -85,4 +85,4 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R40","5.6k","R_0402_1005Metric",12.822980,53.154260,-90.000000,top
 "U1","~","VFRboardempty",-0.075000,75.181000,0.000000,top
 "U2","JDY-33","JDY-33",150.259000,15.130000,0.000000,top
-"text1","~","trollfaceVFR",77.427815,58.211540,5.000000,top
+"text1","~","trollfaceVFR",75.677000,60.043000,5.000000,top
