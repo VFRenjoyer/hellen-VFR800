@@ -8367,12 +8367,6 @@
 		(uuid "8ecc3de7-5246-4bca-9c05-af7f5fd04f10")
 	)
 	(junction
-		(at 312.42 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "996cf907-8f76-470e-b9ba-2043c7bbe422")
-	)
-	(junction
 		(at 346.71 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8395,6 +8389,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2d20253-96e2-44fe-9fa0-80777fe6aa60")
+	)
+	(junction
+		(at 312.42 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3bbbf16-c7a3-47fa-808e-614856d4ee5a")
 	)
 	(junction
 		(at 168.91 148.59)
@@ -10952,7 +10952,7 @@
 	)
 	(bus
 		(pts
-			(xy 138.43 25.4) (xy 342.9 25.4)
+			(xy 138.43 26.67) (xy 312.42 26.67)
 		)
 		(stroke
 			(width 0)
@@ -10972,7 +10972,7 @@
 	)
 	(bus
 		(pts
-			(xy 311.15 -27.94) (xy 311.15 33.02)
+			(xy 312.42 -27.94) (xy 312.42 26.67)
 		)
 		(stroke
 			(width 0)
@@ -11788,16 +11788,6 @@
 		)
 		(uuid "6337b9d3-f96c-4828-a932-85c80275d1ac")
 	)
-	(bus
-		(pts
-			(xy 342.9 33.02) (xy 312.42 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "633b26e4-2340-416b-8f16-0e8f0c0edd38")
-	)
 	(wire
 		(pts
 			(xy 22.86 107.95) (xy 25.4 107.95)
@@ -12535,7 +12525,7 @@
 	)
 	(bus
 		(pts
-			(xy 342.9 25.4) (xy 342.9 33.02)
+			(xy 312.42 26.67) (xy 312.42 54.61)
 		)
 		(stroke
 			(width 0)
@@ -13514,7 +13504,7 @@
 	)
 	(bus
 		(pts
-			(xy 138.43 34.29) (xy 138.43 25.4)
+			(xy 138.43 34.29) (xy 138.43 26.67)
 		)
 		(stroke
 			(width 0)
@@ -13694,16 +13684,6 @@
 		)
 		(uuid "bb38f2fe-fda8-4afb-9d92-471c4cbaa316")
 	)
-	(bus
-		(pts
-			(xy 312.42 33.02) (xy 312.42 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb53f6c9-1adc-47d5-9e86-16954a93c7a7")
-	)
 	(wire
 		(pts
 			(xy 261.62 245.11) (xy 273.05 245.11)
@@ -13817,7 +13797,7 @@
 	)
 	(bus
 		(pts
-			(xy 270.51 -27.94) (xy 311.15 -27.94)
+			(xy 270.51 -27.94) (xy 312.42 -27.94)
 		)
 		(stroke
 			(width 0)
@@ -15034,16 +15014,6 @@
 			(type default)
 		)
 		(uuid "fcf42e64-523c-434c-8950-8d5fc1503c94")
-	)
-	(bus
-		(pts
-			(xy 311.15 33.02) (xy 312.42 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdb0a8f3-da84-45a7-a7ab-1348cacde394")
 	)
 	(bus
 		(pts

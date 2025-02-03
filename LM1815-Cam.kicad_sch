@@ -1767,7 +1767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d4a9eb5-56af-4223-bba1-892b0b198363")
-		(property "Reference" "C12A"
+		(property "Reference" "C12A1"
 			(at 139.7 73.66 90)
 			(effects
 				(font
@@ -1830,7 +1830,7 @@
 		(instances
 			(project "VFRECU-VR"
 				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea/6c826ae6-85e5-4f50-9882-510a117c9583"
-					(reference "C12A")
+					(reference "C12A1")
 					(unit 1)
 				)
 			)
@@ -2208,7 +2208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "886734a6-2a31-429b-b701-5a893cd7db1f")
-		(property "Reference" "IC2A"
+		(property "Reference" "IC2A1"
 			(at 111.76 46.99 0)
 			(effects
 				(font
@@ -2358,7 +2358,7 @@
 		(instances
 			(project "VFRECU-VR"
 				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea/6c826ae6-85e5-4f50-9882-510a117c9583"
-					(reference "IC2A")
+					(reference "IC2A1")
 					(unit 1)
 				)
 			)
@@ -2374,7 +2374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ba5c08a-31dc-4204-b96e-92848afd4441")
-		(property "Reference" "C13A"
+		(property "Reference" "C13A1"
 			(at 160.02 72.3899 90)
 			(effects
 				(font
@@ -2437,7 +2437,7 @@
 		(instances
 			(project "VFRECU-VR"
 				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea/6c826ae6-85e5-4f50-9882-510a117c9583"
-					(reference "C13A")
+					(reference "C13A1")
 					(unit 1)
 				)
 			)
@@ -2789,7 +2789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf1824ac-e585-477b-824d-4b35d63f5707")
-		(property "Reference" "R1A"
+		(property "Reference" "R1A1"
 			(at 39.37 53.34 90)
 			(effects
 				(font
@@ -2841,7 +2841,7 @@
 		(instances
 			(project "VFRECU-VR"
 				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea/6c826ae6-85e5-4f50-9882-510a117c9583"
-					(reference "R1A")
+					(reference "R1A1")
 					(unit 1)
 				)
 			)
