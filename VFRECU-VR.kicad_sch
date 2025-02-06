@@ -13120,6 +13120,17 @@
 		)
 		(uuid "1f0fb27c-452a-46b6-ac2c-59433a821839")
 	)
+	(label "PGND"
+		(at 228.6 401.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23612acd-ad18-4b3a-9ce9-f5cc2cc61207")
+	)
 	(label "INJ3"
 		(at 247.65 138.43 0)
 		(fields_autoplaced yes)
@@ -13691,6 +13702,17 @@
 			(justify left bottom)
 		)
 		(uuid "5168c87b-c168-458d-84e1-f1d4a18d5e12")
+	)
+	(label "PGND"
+		(at 203.2 400.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "525471ca-58ee-412e-b16d-796ea3923bef")
 	)
 	(label "VR1-"
 		(at 133.35 229.87 0)
@@ -15067,6 +15089,17 @@
 		)
 		(uuid "d8f0e4d8-912d-4822-a85e-0ce7708ace47")
 	)
+	(label "PGND"
+		(at 228.6 391.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9e473db-c3eb-49fc-be6e-ca159cf59248")
+	)
 	(label "12VSWITCHED"
 		(at 138.43 148.59 90)
 		(fields_autoplaced yes)
@@ -16125,6 +16158,73 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 203.2 397.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2211127f-7059-446a-882e-08c77d0b2ed7")
+		(property "Reference" "H2"
+			(at 205.74 395.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 205.74 398.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 203.2 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f5c87a8-1d18-4b1e-84b0-d68497ca506e")
+		)
+		(instances
+			(project "VFRECU-VR"
+				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -18471,6 +18571,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "822f938e-deb4-46d7-a587-944efb8fe806")
+		(property "Reference" "H3"
+			(at 231.14 396.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 231.14 399.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 228.6 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "290b61b4-158b-4e90-8000-4b31a040237c")
+		)
+		(instances
+			(project "VFRECU-VR"
+				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VA")
 		(at 152.4 30.48 0)
 		(mirror y)
@@ -20330,6 +20497,73 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 228.6 388.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c130d0-1e8e-4b99-93f8-2136fd5bac7a")
+		(property "Reference" "H4"
+			(at 231.14 386.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 231.14 389.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 228.6 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c83b4892-1d84-4bb8-9ca3-9bb765395117")
+		)
+		(instances
+			(project "VFRECU-VR"
+				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea"
+					(reference "H4")
 					(unit 1)
 				)
 			)
