@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.8-8.0.8-0~ubuntu24.04.1*
-G04 #@! TF.CreationDate,2025-02-06T02:49:02+00:00*
+G04 #@! TF.CreationDate,2025-02-06T02:59:22+00:00*
 G04 #@! TF.ProjectId,VFRECU-VR,56465245-4355-42d5-9652-2e6b69636164,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L4,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.8-8.0.8-0~ubuntu24.04.1) date 2025-02-06 02:49:02*
+G04 Created by KiCad (PCBNEW 8.0.8-8.0.8-0~ubuntu24.04.1) date 2025-02-06 02:59:22*
 %MOMM*%
 %LPD*%
 G01*
@@ -252,9 +252,9 @@ X8024920Y60144340D02*
 X7703120Y56712800D01*
 G04 #@! TD*
 D12*
-G04 #@! TO.P,H2,1,1*
+G04 #@! TO.P,H3,1,1*
 G04 #@! TO.N,GND*
-X4425000Y52731000D03*
+X5000000Y5000000D03*
 G04 #@! TD*
 G04 #@! TO.P,H1,1,1*
 G04 #@! TO.N,GND*
@@ -268,11 +268,6 @@ D14*
 G04 #@! TO.P,JP3,2,B*
 G04 #@! TO.N,Net-(JP3-B)*
 X139494000Y5095000D03*
-G04 #@! TD*
-D12*
-G04 #@! TO.P,H2,1,1*
-G04 #@! TO.N,GND*
-X5000000Y5000000D03*
 G04 #@! TD*
 D13*
 G04 #@! TO.P,JP2,1,A*
@@ -456,6 +451,11 @@ X90007000Y5720000D03*
 G04 #@! TO.P,J4,23,23*
 G04 #@! TO.N,/WBO_Vm*
 X94007000Y5720000D03*
+G04 #@! TD*
+D12*
+G04 #@! TO.P,H2,1,1*
+G04 #@! TO.N,GND*
+X4425000Y52681000D03*
 G04 #@! TD*
 G04 #@! TO.P,U1,A1,A1*
 G04 #@! TO.N,unconnected-(U1-PadA1)*
@@ -1690,11 +1690,6 @@ G01*
 G37*
 G04 #@! TD.AperFunction*
 G04 #@! TD*
-D12*
-G04 #@! TO.P,H3,1,1*
-G04 #@! TO.N,GND*
-X132964000Y4651000D03*
-G04 #@! TD*
 D13*
 G04 #@! TO.P,JP1,1,A*
 G04 #@! TO.N,Net-(JP1-A)*
@@ -1703,6 +1698,11 @@ D14*
 G04 #@! TO.P,JP1,2,B*
 G04 #@! TO.N,+5VA*
 X140970000Y15991000D03*
+G04 #@! TD*
+D12*
+G04 #@! TO.P,H4,1,1*
+G04 #@! TO.N,GND*
+X132960000Y4651000D03*
 G04 #@! TD*
 D35*
 G04 #@! TO.P,J8,1,VBUS*
