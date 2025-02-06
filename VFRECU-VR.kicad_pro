@@ -267,6 +267,10 @@
           "drill": 0.2
         },
         {
+          "diameter": 0.7,
+          "drill": 0.35
+        },
+        {
           "diameter": 1.0,
           "drill": 0.4
         },
