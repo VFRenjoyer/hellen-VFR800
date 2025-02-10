@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-VFR800/hellen-VFR800/VFRECU-VR.kicad_sch</source>
-    <date>2025-02-06T23:23:33+0000</date>
+    <date>2025-02-10T03:02:01+0000</date>
     <tool>Eeschema 8.0.8-8.0.8-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -887,35 +887,20 @@
       <sheetpath names="/LM1815-Cam/" tstamps="/6c826ae6-85e5-4f50-9882-510a117c9583/"/>
       <tstamps>ced822c1-5b47-4437-b69b-316207032b32</tstamps>
     </comp>
-    <comp ref="C12A1">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <description>Capacitor</description>
-      <fields>
-        <field name="LCSC"/>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description">Capacitor</field>
-      </fields>
-      <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value=""/>
-      <property name="Sheetname" value="LM1815-Cam"/>
-      <property name="Sheetfile" value="LM1815-Cam.kicad_sch"/>
-      <sheetpath names="/LM1815-Cam/" tstamps="/6c826ae6-85e5-4f50-9882-510a117c9583/"/>
-      <tstamps>6d4a9eb5-56af-4223-bba1-892b0b198363</tstamps>
-    </comp>
     <comp ref="C13A1">
-      <value>1u</value>
+      <value>10u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Capacitor</description>
       <fields>
-        <field name="LCSC"/>
+        <field name="LCSC">C96446</field>
+        <field name="PN">CL10A106MA8NRNC</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Capacitor</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C96446"/>
+      <property name="PN" value="CL10A106MA8NRNC"/>
       <property name="Sheetname" value="LM1815-Cam"/>
       <property name="Sheetfile" value="LM1815-Cam.kicad_sch"/>
       <sheetpath names="/LM1815-Cam/" tstamps="/6c826ae6-85e5-4f50-9882-510a117c9583/"/>
@@ -1379,23 +1364,6 @@
       <sheetpath names="/Low Side/" tstamps="/2682b025-f92e-4736-98ae-c386990abfb8/"/>
       <tstamps>a284569b-b861-48e2-88ac-fb31172ac17f</tstamps>
     </comp>
-    <comp ref="C3">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <description>Capacitor</description>
-      <fields>
-        <field name="LCSC"/>
-        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description">Capacitor</field>
-      </fields>
-      <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value=""/>
-      <property name="Sheetname" value="LM1815-Crank"/>
-      <property name="Sheetfile" value="LM1815.kicad_sch"/>
-      <sheetpath names="/LM1815-Crank/" tstamps="/cd060a6c-d287-4cb9-8915-021006085e75/"/>
-      <tstamps>0f113999-7238-4ae8-9bff-9e31fb7165f5</tstamps>
-    </comp>
     <comp ref="C4">
       <value>1.2n</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
@@ -1467,17 +1435,19 @@
       <tstamps>a9f8e1fd-c684-4747-b4ae-22c129d52977</tstamps>
     </comp>
     <comp ref="C13">
-      <value>1u</value>
+      <value>10u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Capacitor</description>
       <fields>
-        <field name="LCSC"/>
+        <field name="LCSC">C96446</field>
+        <field name="PN">CL10A106MA8NRNC</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Capacitor</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C96446"/>
+      <property name="PN" value="CL10A106MA8NRNC"/>
       <property name="Sheetname" value="LM1815-Crank"/>
       <property name="Sheetfile" value="LM1815.kicad_sch"/>
       <sheetpath names="/LM1815-Crank/" tstamps="/cd060a6c-d287-4cb9-8915-021006085e75/"/>
@@ -2347,10 +2317,8 @@
       <node ref="M6" pin="N22" pinfunction="VCC" pintype="passive"/>
     </net>
     <net code="4" name="+5VA">
-      <node ref="C12A1" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C13A1" pin="2" pintype="passive"/>
-      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="IC2" pin="8" pinfunction="VCC" pintype="passive"/>
       <node ref="IC2A1" pin="8" pinfunction="VCC" pintype="passive"/>
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
@@ -2747,10 +2715,8 @@
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C12A1" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C13A1" pin="1" pintype="passive"/>
-      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
