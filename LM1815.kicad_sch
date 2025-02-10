@@ -769,12 +769,6 @@
 		(uuid "52ec4a14-d943-4bb0-a70c-bfff9a4c28bf")
 	)
 	(junction
-		(at 148.59 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a6b9639-c1f1-41a9-b404-098ca44a2a80")
-	)
-	(junction
 		(at 68.58 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -972,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 69.85) (xy 148.59 69.85)
+			(xy 147.32 69.85) (xy 156.21 69.85)
 		)
 		(stroke
 			(width 0)
@@ -989,16 +983,6 @@
 			(type default)
 		)
 		(uuid "b03c8161-5526-4e74-ad22-7e607fbf1426")
-	)
-	(wire
-		(pts
-			(xy 148.59 69.85) (xy 147.32 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bddab434-f808-4108-8073-c1a7953f22f1")
 	)
 	(wire
 		(pts
@@ -1155,72 +1139,6 @@
 		(uuid "e509028b-f329-4164-96e5-521afb6e7574")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 148.59 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05ea9bdb-4bf2-4bb8-99f8-3e5a1d850cc4")
-		(property "Reference" "#PWR0101"
-			(at 148.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32820bb9-757c-4a54-bc6a-693f370b6958")
-		)
-		(instances
-			(project ""
-				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea/cd060a6c-d287-4cb9-8915-021006085e75"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 64.77 77.47 0)
 		(unit 1)
@@ -1284,85 +1202,6 @@
 			(project "VFRECU-VR"
 				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea/cd060a6c-d287-4cb9-8915-021006085e75"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Cap")
-		(at 148.59 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f113999-7238-4ae8-9bff-9e31fb7165f5")
-		(property "Reference" "C3"
-			(at 152.4 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 152.4 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor"
-			(at 148.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 148.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22675549-8651-4898-8f40-d9b189700648")
-		)
-		(pin "1"
-			(uuid "6ed9070e-bd71-4df3-9cfa-940393b5c42d")
-		)
-		(instances
-			(project "VFRECU-VR"
-				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea/cd060a6c-d287-4cb9-8915-021006085e75"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2944,7 +2783,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 160.02 74.9299 90)
 			(effects
 				(font
@@ -2979,8 +2818,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C96446"
 			(at 156.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL10A106MA8NRNC"
+			(at 156.21 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
