@@ -8946,7 +8946,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 288.29) (xy 215.9 288.29)
+			(xy 215.9 288.29) (xy 237.49 288.29)
 		)
 		(stroke
 			(width 0)
@@ -10110,16 +10110,6 @@
 			(type default)
 		)
 		(uuid "71fc632f-14ec-4d33-a7ef-1681505e80f6")
-	)
-	(wire
-		(pts
-			(xy 236.22 288.29) (xy 237.49 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "720de1d7-b75b-4e09-8a76-4fe10fb44be7")
 	)
 	(wire
 		(pts
@@ -12567,6 +12557,54 @@
 		)
 		(uuid "fe4ed6c2-ba3e-47fc-8730-fbe0ec99b42d")
 	)
+	(rectangle
+		(start 31.75 58.42)
+		(end 40.64 62.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4acb59b6-41c4-4849-a3c3-201ed8e85794)
+	)
+	(rectangle
+		(start 22.86 54.61)
+		(end 31.75 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d3e7269-e334-4bc4-baf3-7f03efea339b)
+	)
+	(rectangle
+		(start 31.75 69.85)
+		(end 40.64 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a7597e3e-0772-41f3-90be-1fa6c5a84959)
+	)
+	(rectangle
+		(start 24.13 97.79)
+		(end 44.8976 101.5527)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d655add4-ad8d-4a3e-8810-14dfb75372de)
+	)
 	(text "Bluetooth Module"
 		(exclude_from_sim no)
 		(at 398.78 163.83 90)
@@ -12600,6 +12638,16 @@
 		)
 		(uuid "16fb28c6-5a52-4447-8c8b-9d6401c037a0")
 	)
+	(text "O2 Sens\n"
+		(exclude_from_sim no)
+		(at 18.034 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23bb21ab-545d-41a3-927c-e3915d7f5e92")
+	)
 	(text "General purpose bus"
 		(exclude_from_sim no)
 		(at 351.79 35.56 0)
@@ -12632,6 +12680,16 @@
 			(justify right bottom)
 		)
 		(uuid "3a1aaf69-b9d0-488b-828f-aab43c11d265")
+	)
+	(text "O2 Sens\n"
+		(exclude_from_sim no)
+		(at 44.45 72.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ad6eec4-3c74-442b-953a-27517ce6a0b6")
 	)
 	(text "Move the resistor from\nposition R143 to R145 to\nenable the CAN WAKEUP\nfunction. The AUX1 analog\ninput will be unavailable."
 		(exclude_from_sim no)
@@ -12713,6 +12771,16 @@
 		)
 		(uuid "8a8d6eaa-8836-4957-b00d-d6c88cd5fcf1")
 	)
+	(text "O2 Sens\n"
+		(exclude_from_sim no)
+		(at 44.704 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c498403-8973-4f28-b026-476e6a60fb48")
+	)
 	(text "Move the resistor from\nposition R6 to R5 to\nuse ADC3 for receiving\nthe analog signal VR1\ninstead of the knock\nsignal"
 		(exclude_from_sim no)
 		(at 214.63 227.33 0)
@@ -12767,6 +12835,16 @@
 			(justify right bottom)
 		)
 		(uuid "ba23f4a3-bce7-41b2-9d8e-b96e1a1a5491")
+	)
+	(text "Oxygen sensor (uncertain which pin)"
+		(exclude_from_sim no)
+		(at 63.246 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cae87c9c-e673-44eb-8cf7-bda9e08e94a8")
 	)
 	(text "Ignition"
 		(exclude_from_sim no)
@@ -15166,6 +15244,17 @@
 		)
 		(uuid "dfa62d70-3c5c-4c85-a5d2-e260960b5669")
 	)
+	(label "IN_KNOCK_RAW"
+		(at 25.4 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1a529a9-4286-46ff-934f-f4cdd63932f7")
+	)
 	(label "IN_HALL1"
 		(at 273.05 240.03 180)
 		(fields_autoplaced yes)
@@ -16370,98 +16459,6 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Res")
-		(at 226.06 288.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d3e0169-c308-48e5-bf7f-8510e3604d3b")
-		(property "Reference" "R30"
-			(at 231.14 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 231.14 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:R0603"
-			(at 229.87 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 226.06 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5450520c-4fd4-45f2-b632-49184dc001ee")
-		)
-		(pin "2"
-			(uuid "25bab490-ce19-4041-92aa-7fc40cb70666")
-		)
-		(instances
-			(project "alphax_8ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/9f286606-17ad-4292-b95a-d7d4de96430a"
-					(reference "R67")
-					(unit 1)
-				)
-			)
-			(project "uaeficopiedtovfr"
-				(path "/90b72e19-92bc-40db-bd4d-f17fb5de93ea"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-					(reference "R6")
 					(unit 1)
 				)
 			)
